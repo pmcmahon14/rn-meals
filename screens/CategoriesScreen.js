@@ -8,9 +8,7 @@ const CategoriesScreen = props => {
             <Button title='Go to Meals' onPress={() => {
             props.navigation.navigate({routeName: 'CategoryMeals'});
             }} />
-            <Button title='Go to Details' onPress={() => {
-            props.navigation.navigate({routeName: 'MealDetail'});
-            }} />
+
         </View>
     );
 };
